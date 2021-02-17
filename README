@@ -1,0 +1,18 @@
+These are three Python notebooks from my work with the Magnino team in summer 2020
+
+quiver_autoencoder:
+a. Using the 2i2o dataset provided by Kyle, train autoencoder NN
+b. Test multiple different permutations of autoencoders to achieve high
+model accuracy
+
+2. fine_grain_dataset:
+a. Load NN trained in quiver_autoencoder
+b. Generate fine-grain dataset with random spin vectors
+c. Pass new fine-grain dataset into NN, which outputs with dataset with
+interpolated spin vectors
+d. Visualize results
+
+3. time_autoencoder:
+a. Worked on towards end of summer—less definitive results
+b. Given time dataset from Kyle, train autoencoder NN
+c. Pass 5vect dataset into NN and investigate resultant predicted dataset
